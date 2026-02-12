@@ -7,7 +7,7 @@ BIN = $(BIN_DIR)/biblioteca
 SRCS = \
 	main.c \
 	biblioteca.c \
-	../menu/menu.c
+	../../utils/menu/menu.c
 
 .PHONY: all clean
 

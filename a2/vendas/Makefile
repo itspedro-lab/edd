@@ -7,7 +7,7 @@ BIN = $(BIN_DIR)/vendas
 SRCS = \
 	main.c \
 	vendas.c \
-	../menu/menu.c
+	../../utils/menu/menu.c
 
 .PHONY: all clean
 

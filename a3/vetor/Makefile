@@ -2,11 +2,11 @@ CC ?= cc
 CFLAGS ?= -Wall -Wextra -Werror
 
 BIN_DIR = bin
-BIN = $(BIN_DIR)/escolar
+BIN = $(BIN_DIR)/vetor
 
 SRCS = \
 	main.c \
-	escola.c \
+	vetor.c \
 	../../utils/menu/menu.c
 
 .PHONY: all clean

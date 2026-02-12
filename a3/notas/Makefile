@@ -2,11 +2,11 @@ CC ?= cc
 CFLAGS ?= -Wall -Wextra -Werror
 
 BIN_DIR = bin
-BIN = $(BIN_DIR)/escolar
+BIN = $(BIN_DIR)/notas
 
 SRCS = \
 	main.c \
-	escola.c \
+	nota.c \
 	../../utils/menu/menu.c
 
 .PHONY: all clean
